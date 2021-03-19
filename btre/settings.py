@@ -131,3 +131,7 @@ STATICFILES_DIRS = [
     '/var/www/static/',
 ]
 STATIC_ROOT = str(BASE_DIR.joinpath('staticfiles'))
+
+#Media Folder
+MEDIA_ROOT = str(BASE_DIR.joinpath('media'))
+MEDIA_URL = "/media/"

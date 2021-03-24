@@ -5,3 +5,13 @@ Creating, Adding, Updating or Deleting are easily managed by the django admin pa
 Functionalities for the user - Register, Login, See the Listings on the user dashboard
 Make an Inquiry to the realtor about the listing and the notification will pop on the realtor's email.
 
+
+![Screenshot](https://github.com/meghamodi/RealEstate_site/blob/main/screenshot/index.png)
+![Screenshot](https://github.com/meghamodi/RealEstate_site/blob/main/screenshot/dashboard.png)
+![Screenshot](https://github.com/meghamodi/RealEstate_site/blob/main/screenshot/listings.png)
+![Screenshot](https://github.com/meghamodi/RealEstate_site/blob/main/screenshot/register.png)
+
+
+
+
+

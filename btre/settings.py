@@ -129,11 +129,9 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.1/howto/static-files/
 
 STATIC_URL = '/static/'
-STATICFILES_DIRS = [
-    BASE_DIR / "static",
-    '/var/www/static/',
-]
-STATIC_ROOT = str(BASE_DIR.joinpath('staticfiles'))
+STATICFILES_DIRS = (
+)
+STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 
 #Media Folder
 MEDIA_ROOT = str(BASE_DIR.joinpath('media'))
@@ -144,8 +142,6 @@ from django.contrib.messages import constants as messages
 MESSAGE_TAGS = {
     messages.ERROR: 'danger'
 }
-
-
 
 try:
     from .local_settings import *
